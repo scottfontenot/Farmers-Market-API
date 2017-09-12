@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Thinkful API project</title>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="index.css" rel="stylesheet" type="text/css"/>
+  </head>
+  
+  <body>
+    <header>
+      <nav class="navbar bg-faded navbar-inverse navbar-toggleable-sm" role="navigation">
+        <div class="container">
+          <a class="navbar-brand"><img src="https://i.pinimg.com/736x/a6/ab/d7/a6abd747cb10cfbd24cf0d47201b4ed7--farmers-market-display-farmers-market.jpg" style ="width: 50px" alt="logo"></a>
+          <div class="navbar-nav">
+            <h1 class="nav navbar-nav">Farmers Market Locator</h1>
+            <p class="nav navbar-nav">Click on the map to select a location and reveal the nearest farmers markets</p>
+          </div><!-- navbar-nav -->
+        </div><!-- container -->
+      </nav>
+    </header>
+    
+    
+  <div class="container-fluid">
+    <div id="google_map"></div>
+  </div>  
+  
+    <input class='hidden' type="text" id="textbox1" />
+    <input class='hidden' type="text" id="textbox2" />
+  <script src="index.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?libraries=geometry,drawing,places&amp;key=AIzaSyB0X30N1AirWkhbX621NrfQ5TDYa7kYLt4&amp;v=3&amp;callback=initMap"></script>
+    
+  </body>
+</html>
+
+
+
+
+
+

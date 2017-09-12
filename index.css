@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,100,300,700);
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /*background-color: rgba(0, 0, 0, 0.2);*/
+  /*background-image: url(http://roundpeg.biz/wp-content/uploads/2017/04/4FarmersMarkets.png);*/
+
+  background: url(https://www.montereybayfarmers.org/wp-content/uploads/2014/04/marketmain-slide-D.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   
+}
+
+header  {
+  padding: 15px 0;
+  color: rgb(0,255,127);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  margin: 0;
+}
+h1.navbar, h1.nav {
+  font-weight: 700;
+  padding: 0 20px 0 20px;
+}
+p.nav, p.navbar-nav {
+  font-size: 15px;
+}
+.navbar-brand {
+  padding-left: 10px;
+}
+
+
+#google_map {
+  height: 600px;
+  width: 100%;
+}
+
+.hidden {
+  visibility: hidden;
+}
+.markerPop {
+  padding: 10px 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: left;
+}
