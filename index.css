@@ -41,6 +41,9 @@ h1.navbar, h1.nav {
   text-shadow: 1px 1px 2px #082b34;
   
 }
+.navbar-brand>img {
+  border:1px solid black;
+}
 p.nav, p.navbar-nav {
   color: #FFFFFF; 
   font-family: 'Carme', sans-serif; 
