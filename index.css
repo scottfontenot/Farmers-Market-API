@@ -4,27 +4,24 @@
 }
 
 body{
+  
   font-family: "Roboto Slab", sans-serif;
   font-weight: 300;
   font-size: 2em;
   position: relative;
   width: 100%;
   height: 100%;
-  /*background-color: rgba(0, 0, 0, 0.2);*/
-  /*background-image: url(http://roundpeg.biz/wp-content/uploads/2017/04/4FarmersMarkets.png);*/
-
   background: url(https://www.montereybayfarmers.org/wp-content/uploads/2014/04/marketmain-slide-D.jpg)no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-   
+  
 }
 
 header  {
   padding: 15px 0;
-  color: rgb(0,255,127);
-  background-color: rgba(0, 0, 0, 0.3);
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,11 +30,24 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 h1.navbar, h1.nav {
-  font-weight: 700;
   padding: 0 20px 0 20px;
+  color: #FF0000; 
+  font-family: 'Rouge Script', cursive; 
+  font-size: 50px; 
+  font-weight: bold; 
+  line-height: 48px; 
+  margin: 0 0 50px; 
+  text-align: center; 
+  text-shadow: 1px 1px 2px #082b34;
+  
 }
 p.nav, p.navbar-nav {
-  font-size: 15px;
+  color: #FFFFFF; 
+  font-family: 'Carme', sans-serif; 
+  font-size: 20px; 
+  line-height: 24px; 
+  margin: 0 0 24px;
+  text-shadow: 1px 1px 2px #082b34
 }
 .navbar-brand {
   padding-left: 10px;
@@ -45,7 +55,7 @@ p.nav, p.navbar-nav {
 
 
 #google_map {
-  height: 600px;
+  height: 450px;
   width: 100%;
 }
 
@@ -54,6 +64,26 @@ p.nav, p.navbar-nav {
 }
 .markerPop {
   padding: 10px 10px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   text-align: left;
+  color: #ffffff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
