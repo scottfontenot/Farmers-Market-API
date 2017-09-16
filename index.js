@@ -2,11 +2,16 @@
 //var $ = require('jquery');
 
 window.initMap = function(){
-   
+   // Resonsive google map
+    google.maps.event.addDomListener(window, "resize", function() {
+       var center = map.getCenter();
+       google.maps.event.trigger(map, "resize");
+       map.setCenter(center); 
+});
   
   var markers = [];
    map = new google.maps.Map(document.getElementById('google_map'), {
-    center: {lat: 37.0, lng: -105.7},
+    center: {lat: 40.9, lng: -97.2},
     zoom: 5,
     mapTypeId: 'roadmap'
   });//end of map
@@ -122,7 +127,7 @@ function getMarketDetails(arrMarketId, marketName) {
                         myLatlng = new google.maps.LatLng(latitude,longitude);
           
                        allMarkers = new google.maps.Marker({
-                            icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png',
+                            icon: 'https://maps.google.com/mapfiles/ms/icons/green-dot.png',
                             position: myLatlng,
                             map: map,
                             title: marketName[counter],
@@ -162,10 +167,3 @@ function getMarketDetails(arrMarketId, marketName) {
         });//end of $.ajax call 
     });//end of $.each(arrMarketId, function(i, val)
   }//end of getMarketDetails
-
-
-
-
-
-
-
