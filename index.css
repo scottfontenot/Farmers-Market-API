@@ -58,6 +58,7 @@ p.nav, p.navbar-nav {
 
 
 #google_map {
+  position: relative;
   height: 450px;
   width: 100%;
 }
@@ -72,7 +73,20 @@ p.nav, p.navbar-nav {
   color: #ffffff;
 }
 
-
+#floating-panel {
+        position: absolute;
+        top: 250px;
+        right: 5%;
+        font-size: 10px;
+        z-index: 5;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #999;
+        text-align: center;
+        font-family: 'Roboto','sans-serif';
+        line-height: 30px;
+        padding-left: 10px;
+      }
 
 
 

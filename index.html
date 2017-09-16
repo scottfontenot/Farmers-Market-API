@@ -21,16 +21,22 @@
           <a class="navbar-brand"><img src="https://i.pinimg.com/736x/a6/ab/d7/a6abd747cb10cfbd24cf0d47201b4ed7--farmers-market-display-farmers-market.jpg" style ="width: 50px" alt="logo"></a>
           <div class="navbar-nav">
             <h1 class="nav navbar-nav">Farmers Market Locator</h1>
-            <p class="nav navbar-nav">Click on the map to select a location and reveal the nearest farmers markets</p>
+            <p class="nav navbar-nav">Click on the map to select a location and reveal the nearest farmers markets.</p>
           </div><!-- navbar-nav -->
         </div><!-- container -->
       </nav>
     </header>
     
     
-  <div class="container-fluid">
-    <div id="google_map"></div>
-  </div>  
+  
+    <div id="floating-panel">
+      <input onclick="clearMarkers();" type=button value="Hide Markers">
+      <input onclick="showMarkers();" type=button value="Show All Markers">
+      <input onclick="deleteMarkers();" type=button value="Delete Markers">
+     </div>
+     <div class="container-fluid">
+    <div id="google_map"></div></div>
+
   
     <input class='hidden' type="text" id="textbox1" />
     <input class='hidden' type="text" id="textbox2" />
@@ -39,9 +45,3 @@
     
   </body>
 </html>
-
-
-
-
-
-
