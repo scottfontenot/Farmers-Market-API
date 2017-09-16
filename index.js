@@ -12,7 +12,7 @@ window.initMap = function(){
   var markers = [];
    map = new google.maps.Map(document.getElementById('google_map'), {
     center: {lat: 40.9, lng: -97.2},
-    zoom: 5,
+    zoom: 4,
     mapTypeId: 'roadmap'
   });//end of map
   
