@@ -43,6 +43,7 @@ h1.navbar, h1.nav {
 }
 .navbar-brand>img {
   border:1px solid black;
+  width: 100px; 
 }
 p.nav, p.navbar-nav {
   color: #FFFFFF; 
